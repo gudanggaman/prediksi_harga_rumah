@@ -77,7 +77,7 @@ data_clean.shape
 data_clean[['price']].describe()
 
 
-+ labelEnocder_data = LabelEncoder()
+labelEnocder_data = LabelEncoder()
 data_clean[:, 13] = labelEnocder_data.fit_transform(data_clean[:,13])
 
 
